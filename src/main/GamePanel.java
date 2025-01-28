@@ -35,11 +35,6 @@ public class GamePanel extends JPanel {
     }
 
 
-
-    public void updateGame() {
-
-    }
-
     public void paintComponent(Graphics g) {
         super.paintComponent(g); //super poziva "super" klasu JComponent da izgenerira paintComponent kako bi postavio (reset) radnu površinu
 
